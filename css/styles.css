@@ -1,0 +1,40 @@
+:root {
+    --blue-color: #0065FC;
+    --blue-color-light: #DEEBFF;
+    --grey-color: #F2F2F2;
+  }
+
+body {
+    font-family: Raleway;
+}
+
+.container {
+    margin: auto;
+    padding: 25px 55px;
+}
+a {
+    text-decoration: none;
+    color: var(--blue-color);
+}
+
+/*      HEADER              */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu {
+    display: flex;
+}
+.nav-menu ul li {
+    padding-left: 3em;
+    display: inline-flex;
+}
+
+.nav-menu ul li a.selected {
+    color: black;
+}
+.nav-menu ul li a.signin {
+    font-weight: bold;
+}
+
+

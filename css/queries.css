@@ -1,0 +1,27 @@
+@media screen and (max-width: 764px){
+    
+    /*      HEADER              */
+    .nav-bar {
+        display: block;
+    }
+    .nav-menu {
+        display: block;
+    }
+    .nav-menu .nav-menu-items ul{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 20px;
+        border-bottom: 2px solid var(--grey-color);
+        margin-left: -60px;
+        margin-right: -60px;
+        padding-right: 120px;
+    }
+
+    .nav-menu .nav-menu-signin {
+        position: absolute;
+        top: 33px;
+        right: 30px;
+    }
+    
+
+}

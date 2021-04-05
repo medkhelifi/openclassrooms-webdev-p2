@@ -5,7 +5,7 @@
     <title>Flexbox 0 — starting code</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/queries.css" />
-    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link   rel="stylesheet"    href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"   integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"   crossorigin="anonymous"    />
     <link    href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap"    rel="stylesheet"  />
 </head>
 <body>
@@ -29,9 +29,43 @@
                     </div>
                 </div>
             </div>
-            <div>
+            <div class="slogan-bar">
                 <h3>Trouvez votre hébergement pour des vacances de réve                </h3>
+                <p>En plein centre ville ou en plein nature</p>
             </div>
-        </nav>
+            <div class="search-bar">
+                <i class="fas fa-map-marker-alt gps"></i>
+                <input   type="text"  class="search min-search"   placeholder="Marseille, France"  />
+                <button class="btn-2">Rechercher</button>
+                <button class="btn-2-min">
+                    <i class="fas fa-search search-icons"></i>
+                </button>
+            </div>
+            <div class="filter-container">
+                <h1>Filtres</h1>
+                <div class="filter-mini">
+                  <div class="filter-categories eco">
+                    <i class="fas fa-money-bill-wave filter-icons"></i
+                    ><a href="#" class="filter-details">Économique</a>
+                  </div>
+                  <div class="filter-categories family">
+                    <i class="fas fa-child filter-icons"></i
+                    ><a href="#" class="filter-details">Familial</a>
+                  </div>
+                </div>
+                <div class="filter-categories love">
+                  <i class="fas fa-heart filter-icons"></i
+                  ><a href="#" class="filter-details">Romatique</a>
+                </div>
+                <div class="filter-categories animal">
+                  <i class="fas fa-dog filter-icons"></i
+                  ><a href="#" class="filter-details">Animaux autorisés</a>
+                </div>
+            </div>
+            <div class="infos">
+                <i class="fas fa-info news"></i>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
+        </header>
     </div>
 </body>
